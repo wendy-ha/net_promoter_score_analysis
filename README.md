@@ -39,7 +39,7 @@ The Imaginary's NPS survey, as previously discovered, spanned too broad, with 25
 In the following steps, I will merge an AU city database (https://www.kaggle.com/datasets/maryamalizadeh/worldcities-australia) covering 1,035 prominent cities in Australia with associated <strong>latitude, longitude, and state</strong> of each city into the Imaginary dataset in order to generate a new dataframe for geographic analysis.
 
 ![](charts/2.png)
-## EDA
+## Exploratory Data Analysis
 "In Overall: Parents are Happy!"
 
 - Distribution of Individual NPS Scores received from survey
@@ -98,3 +98,16 @@ Imaginary Childcare's NPS has decreased from 58% in October 2021 to 49% in Decem
 In the first half of 2022, Imaginary Childcare's NPS Score increased significantly compared to the period in 2021. This is due to the fact that the Australian government has decided to **reopen its borders** (https://www.bbc.com/news/world-australia-60284491) to international travel in February 2022, allowing many ECEC professionals who are foreigners to return to Australia and continue working. In addition, the government maintains the **Child Care Subsidy** (https://www.servicesaustralia.gov.au/child-care-subsidy) and continues to extend the **Childcare Support package for COVID-19** (https://www.education.gov.au/covid-19/announcements/covid-19-update-australian-government-support-child-care) until June 30, 2022. As a result, the human resource crisis and financial concerns in the ECEC industry have been partially resolved, which has contributed to an improvement in service quality at the facilities.
 
 Consequently, the level of parents satisfaction increases.
+
+#### Q4: Which category has the highest and lowest NPS score among the 8 surveyed categories?
+![](charts/10.png)
+![](charts/11.png)
+>**Findings:**
+
+- The categories with the highest NPS Score are "Visit Booking Process" and "Question". These are the two services with the highest Promoters, 1519 and 1506, and the lowest Detractors, 130 and 116, respectively. This demonstrates that Imaginary has been efficient in terms of administration and customer support.
+- The categories with the poorest NPS scores are "Value for money" and "Nutritious Meal". This indicates that parents' primary concern while enrolling their children to Imaginary Childcare centres is the Tuition Fee and the Children's Nutrition.
+![](charts/12.png)
+>**Findings:**
+
+- The heatmap depicts the relationship between categories. It can be seen that "Value for Money" has a positive relationship with factors such as "Nutritious Meal" (0,89), "Ambience and Atmosphere" (0,93), and "Visit Booking Process" (0,93), however the relationship is not very strong.
+This demonstrates that while parents may believe that the amount of money they spend for the center's services is increasing, but the nutrition in the food, the cleanliness of the facility, and the booking service are not providing appropriate value for the money invested.
